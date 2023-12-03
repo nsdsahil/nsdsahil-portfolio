@@ -13,6 +13,17 @@ import {
 	OrderedList,
 	UnorderedList,
 } from "@chakra-ui/react";
+import a from "../assets/a.png"
+import b from "../assets/b.png"
+import c from "../assets/c.png"
+import d from "../assets/d.png"
+import e from "../assets/e.png"
+import f from "../assets/f.png"
+import g from "../assets/g.png"
+
+
+import superhero from '../assets/superhero.png';
+
 /**
  * @author
  * @function Projects
@@ -52,25 +63,25 @@ export const Projects = (props) => {
 			>
 				<Slider style={{ width: "100%" }} {...settings}>
 					<div>
-						<Image src="src\assets\Screenshot 2023-11-17 182744.png" />
+						<Image src={a} />
 					</div>
 					<div>
-						<Image src="src\assets\Screenshot 2023-11-17 182828.png" />
+						<Image src={b} />
 					</div>
 					<div>
-						<Image src="src\assets\Screenshot 2023-11-17 182917.png" />
+						<Image src={c} />
 					</div>
 					<div>
-						<Image src="src\assets\Screenshot 2023-11-17 183253.png" />
+						<Image src={d} />
 					</div>
 					<div>
-						<Image src="src\assets\Screenshot 2023-11-17 183415.png" />
+						<Image src={e} />
 					</div>
 					<div>
-						<Image src="src\assets\Screenshot 2023-11-17 183558.png" />
+						<Image src={f} />
 					</div>
 					<div>
-						<Image src="src\assets\Screenshot 2023-11-17 183629.png" />
+						<Image src={g} />
 					</div>
 				</Slider>
 				<Box padding={"10%"}>
@@ -141,7 +152,7 @@ export const Projects = (props) => {
 					borderLeftRadius={"2%"}
 					width={"50%"}
 					display={"inline"}
-					src="src\assets\screencapture-beautiful-tarsier-cf0548-netlify-app-2023-12-01-13_20_11.png"
+					src={superhero}
 				/>
 				<Box padding={"2%"} float={"right"}>
 					<Heading>

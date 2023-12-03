@@ -9,7 +9,8 @@ import {
 } from "@chakra-ui/react";
 import { Button, Text } from "@chakra-ui/react";
 import "./styles/font.css";
-/**
+import professional from '../assets/professional.png'
+/**	
  * @author
  * @function IntroCover
  **/
@@ -166,7 +167,7 @@ export const IntroCov = (props) => {
 				right={"0"}
 				bottom={"0"}
 				// src="src\assets\casual-png.png"
-				src="src\assets\professional-png.png"
+				src={professional}
 			/>
 		</Box>
 	);
