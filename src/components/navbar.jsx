@@ -11,6 +11,8 @@ import {
 } from "@chakra-ui/react";
 import HamburgerMenu from "./HamburgerMenu";
 import MenuLink from "./menuLink";
+import mainlogo from "./assets/mainlogo.svg";
+
 
 export default function Navbar() {
 	const isMobile = useBreakpointValue({
@@ -37,7 +39,7 @@ export default function Navbar() {
 			alignItems={"center"}
 			justifyContent={"space-around"}
 		>
-			<Box width={["20%","15%","10%","7%"]}><Image width={'100%'}src="src\assets\logo-no-background.svg"/></Box>		
+			<Box width={["20%","15%","10%","7%"]}><Image width={'100%'}src={mainlogo}/></Box>		
 
 			{!isMobile ? <MenuLink /> : null}
 

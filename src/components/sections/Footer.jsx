@@ -1,7 +1,7 @@
 "use client";
 
 import { ReactNode } from "react";
-
+import logoblack from '../assets/logo-black.png'
 import {
 	Box,
 	Container,
@@ -30,7 +30,7 @@ export default function Footer() {
 							© 2022 Chakra Templates. All rights reserved
 						</Text>
 						<Box width={["20%", "15%", "10%", "7%", "10%", "30%"]}>
-							<Image width={"100%"} src="src\assets\logo-black.png" />
+							<Image width={"100%"} src={logoblack} />
 						</Box>
 						
 			<Flex width={'100%'} justifyContent={"space-around"}>
