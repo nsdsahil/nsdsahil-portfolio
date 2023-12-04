@@ -17,7 +17,7 @@ import mainlogo from "./assets/mainlogo.svg";
 export default function Navbar() {
 	const isMobile = useBreakpointValue({
 		base: true,
-		md: true,
+		md: false,
 		sm: true,
 		xs: true,
 		lg: false,
@@ -43,7 +43,7 @@ export default function Navbar() {
 
 			{!isMobile ? <MenuLink /> : null}
 
-			<Flex width={["30%","20%","15%","10%"]} justifyContent={"space-around"}>
+			<Flex width={["50%","30%","20%","20%","15%"]} justifyContent={"space-around"}>
 				<Link isExternal={true} href='https://www.twitter.com/Sahil11690991'>
 				<Image
 				   
@@ -57,14 +57,14 @@ export default function Navbar() {
 				<Image
 					width={"2rem"}
 					height={"2rem"}
-					src="https://img.icons8.com/?size=48&id=xuvGCOXi8Wyg&format=png"
+					src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png"
 				/>
 				</Link>
 				<Link isExternal={true} href='https://www.instagram.com/nsd_sahil/'>
 				<Image
 					width={"2rem"}
 					height={"2rem"}
-					src="https://img.icons8.com/?size=48&id=32323&format=png"
+					src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png"
 				/>
 				</Link>
 				<Link isExternal={true} href='https://github.com/nsdsahil'>

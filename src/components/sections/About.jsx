@@ -26,7 +26,7 @@ export const About = (props) => {
 
 	const openResume = () => {
 		window.open(
-			"https://drive.google.com/file/d/1EvCaXJn6I-uoyWnMvhLC5OC1_9YVweWK/view?usp=sharing",
+			"https://drive.google.com/file/d/1J0TYfcf1nUzj_IDzF5JJKSa4fXJZYeWT/view?usp=drive_link",
 			"_blank"
 		);
 	};
@@ -136,7 +136,7 @@ export const About = (props) => {
 			<Box marginTop={""} textAlign={"center"}>
 				<TableContainer>
 					<Table
-						size={["xs", "sm", "md", "md", "md", "md"]}
+						size={["xs", "sm", "sm", "sm", "sm", "sm"]}
 						fontSize={[
 							"0.9rem",
 							"1.5rem",

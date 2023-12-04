@@ -27,7 +27,7 @@ export default function Footer() {
 					<Stack spacing={6}>
 						<Box></Box>
 						<Text fontSize={"sm"}>
-							© 2022 Chakra Templates. All rights reserved
+							© 2023 Sahil Nishad. All rights reserved
 						</Text>
 						<Box width={["20%", "15%", "10%", "7%", "10%", "30%"]}>
 							<Image width={"100%"} src={logoblack} />

@@ -18,13 +18,13 @@ import professional from '../assets/professional.png'
 export const IntroCov = (props) => {
 	return (
 		<Box
-		    
+		    id='home'
 		    backgroundColor={"#f4fff7"}
 			
 			overflow={"hidden"}
 			position={"relative"}
 			// color={"white"}
-			height={["600px", "600px", "600px", "600px", "700px", "800px"]}
+		 height={["600px", "600px", "800px", "700px", "800px", "800px"]}
 			
 		>	
 			<Grid
@@ -85,7 +85,7 @@ export const IntroCov = (props) => {
 						<a href="#about"><Button
 						    size={["xs", "md", "lg", "lg", "lg"]}
 							backgroundColor={"#32de84"}
-							
+							marginBottom={'10%'}
 							color={"white"}
 							boxShadow={
 								"rgba(0, 0, 0, 0.25) 0px 14px 28px, #32de84 0px 10px 10px"
@@ -99,6 +99,9 @@ export const IntroCov = (props) => {
 					</Flex>
 				</Box>
 				<Flex
+				    
+					marginTop={'10%'}
+
 				    flexWrap={'wrap'}
 					zIndex={"20"}
 					position={[
