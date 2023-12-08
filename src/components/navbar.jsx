@@ -13,7 +13,7 @@ import {
 import HamburgerMenu from "./HamburgerMenu";
 import MenuLink from "./menuLink";
 import mainlogo from "./assets/mainlogo.svg";
-
+import resume from './Sahil-Nishad-Resume.pdf'
 
 export default function Navbar() {
 	const openResume = () => {
@@ -83,7 +83,7 @@ export default function Navbar() {
 				</Link>
 				<a
 				target="_blank"
-				href="src\components\Sahil-Nishad-Resume.pdf"
+				href={resume}
 				download='Sahil-Nishad-Resume.pdf'
 				onClick={openResume}
 				>
