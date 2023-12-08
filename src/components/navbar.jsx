@@ -6,6 +6,7 @@ import {
 	Image,
 	Box,
 	Flex,
+	Button,
 	Link,
 	useBreakpointValue,
 } from "@chakra-ui/react";
@@ -15,6 +16,12 @@ import mainlogo from "./assets/mainlogo.svg";
 
 
 export default function Navbar() {
+	const openResume = () => {
+		window.open(
+			"https://drive.google.com/file/d/1J0TYfcf1nUzj_IDzF5JJKSa4fXJZYeWT/view?usp=drive_link",
+			"_blank"
+		);
+	};
 	const isMobile = useBreakpointValue({
 		base: true,
 		md: false,
@@ -60,13 +67,13 @@ export default function Navbar() {
 					src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png"
 				/>
 				</Link>
-				<Link isExternal={true} href='https://www.instagram.com/nsd_sahil/'>
+				{!isMobile ? <Link isExternal={true} href='https://www.instagram.com/nsd_sahil/'>
 				<Image
 					width={"2rem"}
 					height={"2rem"}
 					src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png"
-				/>
-				</Link>
+				/> 
+				</Link>:null}
 				<Link isExternal={true} href='https://github.com/nsdsahil'>
 				<Image
 					width={"2rem"}
@@ -74,6 +81,15 @@ export default function Navbar() {
 					src="https://cdn-icons-png.flaticon.com/128/13170/13170533.png"
 				/>
 				</Link>
+				<a
+				target="_blank"
+				href="src\components\Sahil-Nishad-Resume.pdf"
+				download='Sahil-Nishad-Resume.pdf'
+				onClick={openResume}
+				>
+				<Button  variant="ghost" colorScheme={"green"} 
+				backgroundColor={'white'}
+				>Resume</Button></a>	
 			</Flex>
 
 			{isMobile ? <HamburgerMenu /> : null}

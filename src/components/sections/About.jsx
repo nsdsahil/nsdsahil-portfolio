@@ -15,7 +15,7 @@ import {
 	TableContainer,
 } from "@chakra-ui/react";
 import "../styles/transitions.css";
-import SahilNishadResume from "../../assets/SahilNishadResume.pdf";
+
 
 /**
  * @author
@@ -205,9 +205,9 @@ export const About = (props) => {
 					</TableContainer>
 
 					<Link
-						href={SahilNishadResume}
-						download={SahilNishadResume}
-						onClick={openResume}
+							href="src\components\sections\Sahil-Nishad-Resume.pdf"
+							download='Sahil-Nishad-Resume.pdf'
+							onClick={openResume}
 					>
 						<Button
 							size={["xs", "md", "lg", "lg", "lg"]}
