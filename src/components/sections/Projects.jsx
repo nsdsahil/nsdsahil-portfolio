@@ -114,6 +114,22 @@ export const Projects = (props) => {
 							<ListIcon as="MdCheckCircle" color="green.500" />
 							Click on Demo live button to see the website live
 						</ListItem>
+						<ListItem>
+							<ListIcon as="MdCheckCircle" color="green.500" />Teck Stack
+							<Badge ml="1" fontSize="0.8em" variant="solid" colorScheme="blue">
+							Html
+						</Badge>
+						<Badge ml="1" fontSize="0.8em" variant="solid" colorScheme="blue">
+							javascript
+						</Badge>
+						<Badge ml="1" fontSize="0.8em" variant="solid" colorScheme="blue">
+							React
+						</Badge>
+						<Badge ml="1" fontSize="0.8em" variant="solid" colorScheme="blue">
+							Chakra UI
+						</Badge>
+							
+						</ListItem>
 					</List>
 					<Box marginTop={"5%"} textAlign={"center"}>
 						<Link isExternal="true" href="https://github.com/nsdsahil/Apple-Tv">
@@ -177,6 +193,20 @@ export const Projects = (props) => {
 						<ListItem>
 							<ListIcon as="MdCheckCircle" color="green.500" />
 							Click on Demo live button to see the resume live
+						</ListItem>
+						<ListItem>
+							<ListIcon as="MdCheckCircle" color="green.500" />Teck Stack
+							<Badge ml="1" fontSize="0.8em" variant="solid" colorScheme="blue">
+							Html
+						</Badge>
+						<Badge ml="1" fontSize="0.8em" variant="solid" colorScheme="blue">
+							javascript
+						</Badge>
+						<Badge ml="1" fontSize="0.8em" variant="solid" colorScheme="blue">
+							Css
+						</Badge>
+						
+							
 						</ListItem>
 					</List>
 					<Box marginTop={"5%"} textAlign={"center"}>
