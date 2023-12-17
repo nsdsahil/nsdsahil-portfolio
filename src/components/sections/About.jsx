@@ -15,7 +15,7 @@ import {
 	TableContainer,
 } from "@chakra-ui/react";
 import "../styles/transitions.css";
-import resume from "./Sahil-Nishad-Resume.pdf";
+import resume from "./SahilNishad-FrontendDeveloper.pdf";
 
 /**
  * @author
@@ -27,7 +27,7 @@ export const About = (props) => {
 
 	const openResume = () => {
 		window.open(
-			"https://drive.google.com/file/d/1J0TYfcf1nUzj_IDzF5JJKSa4fXJZYeWT/view?usp=drive_link",
+			"https://drive.google.com/file/d/1XXDdne9GUERaaEPQy0xV8I5sFrrUD2kP/view?usp=drive_link",
 			"_blank"
 		);
 	};

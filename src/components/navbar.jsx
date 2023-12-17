@@ -13,12 +13,12 @@ import {
 import HamburgerMenu from "./HamburgerMenu";
 import MenuLink from "./menuLink";
 import mainlogo from "./assets/mainlogo.svg";
-import resume from './Sahil-Nishad-Resume.pdf'
+import resume from './SahilNishad-FrontendDeveloper.pdf'
 
 export default function Navbar() {
 	const openResume = () => {
 		window.open(
-			"https://drive.google.com/file/d/1J0TYfcf1nUzj_IDzF5JJKSa4fXJZYeWT/view?usp=drive_link",
+			"https://drive.google.com/file/d/1XXDdne9GUERaaEPQy0xV8I5sFrrUD2kP/view?usp=drive_link",
 			"_blank"
 		);
 	};
