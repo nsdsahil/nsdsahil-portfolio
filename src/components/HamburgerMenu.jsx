@@ -14,11 +14,12 @@ export default function HamburgerMenu (){
      
        <Menu  closeOnBlur='true' closeOnSelect='true' color={'black'}>
   <MenuButton
-  
+    size={'sm'}
     as={IconButton}
     aria-label='Options'
     icon={<HamburgerIcon />}
     variant='outline'
+    bgColor={'white'}
   />
   <MenuList position={'fixed'} right={'0'} width='30%'  color={'black'}
   textAlign={'center'}

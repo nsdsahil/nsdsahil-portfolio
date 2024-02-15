@@ -157,28 +157,28 @@ export const About = (props) => {
 							<Tbody>
 								<Tr className="pulsate-bck" padding={"1rem"}>
 									<Td>
-										<Image src="https://img.icons8.com/ios-filled/50/000000/user.png" />
+										<Image width={"1.5rem"} src="https://img.icons8.com/ios-filled/50/000000/user.png" />
 									</Td>
 									<Td>Age:</Td>
 									<Td>21</Td>
 								</Tr>
 								<Tr className="pulsate-bck">
 									<Td>
-										<Image src="https://img.icons8.com/ios-filled/50/000000/worldwide-location.png" />
+										<Image width={"1.5rem"} src="https://img.icons8.com/ios-filled/50/000000/worldwide-location.png" />
 									</Td>
 									<Td>Residence:</Td>
 									<Td>India</Td>
 								</Tr>
 								<Tr className="pulsate-bck">
 									<Td>
-										<Image src="https://img.icons8.com/ios-filled/50/000000/address.png" />
+										<Image width={"1.5rem"}  src="https://img.icons8.com/ios-filled/50/000000/address.png" />
 									</Td>
 									<Td>Address:</Td>
 									<Td>2\13\6d Shiv Colony,Ayodhya</Td>
 								</Tr>
 								<Tr className="pulsate-bck">
 									<Td>
-										<Image src="https://img.icons8.com/ios-filled/50/000000/email.png" />
+										<Image width={"1.5rem"}src="https://img.icons8.com/ios-filled/50/000000/email.png" />
 									</Td>
 									<Td>Email:</Td>
 									<Td>
@@ -187,14 +187,14 @@ export const About = (props) => {
 								</Tr>
 								<Tr className="pulsate-bck">
 									<Td>
-										<Image src="https://img.icons8.com/ios-filled/50/000000/phone.png" />
+										<Image width={"1.5rem"} src="https://img.icons8.com/ios-filled/50/000000/phone.png" />
 									</Td>
 									<Td>Phone No:</Td>
 									<Td>+91 1234567890</Td>
 								</Tr>
 								<Tr className="pulsate-bck">
 									<Td>
-										<Image src="https://img.icons8.com/ios-filled/50/000000/work.png" />
+										<Image width={"1.5rem"} src="https://img.icons8.com/ios-filled/50/000000/work.png" />
 									</Td>
 									<Td>Work:</Td>
 									<Td>Available for Freelance</Td>
@@ -214,7 +214,7 @@ export const About = (props) => {
 							backgroundColor={"#32de84"}
 							color={"white"}
 							boxShadow={
-								"rgba(0, 0, 0, 0.25) 0px 14px 28px, #32de84 0px 10px 10px"
+								"rgba(0, 0, 0, 0.1) 0px 15px 25px, #32de84 0px 2px 20px"
 							}
 							_hover={{
 								backgroundColor: "white",

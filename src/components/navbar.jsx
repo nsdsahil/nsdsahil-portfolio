@@ -50,7 +50,7 @@ export default function Navbar() {
 
 			{!isMobile ? <MenuLink /> : null}
 
-			<Flex width={["50%","30%","20%","20%","15%"]} justifyContent={"space-around"}>
+			<Flex alignItems={"center"} width={["50%","30%","20%","20%","15%"]} justifyContent={"space-around"}>
 				<Link isExternal={true} href='https://www.twitter.com/Sahil11690991'>
 				<Image
 				   
@@ -87,7 +87,7 @@ export default function Navbar() {
 				download='Sahil-Nishad-Resume.pdf'
 				onClick={openResume}
 				>
-				<Button  variant="ghost" colorScheme={"green"} 
+				<Button size='sm'  variant="ghost" colorScheme={"green"} 
 				backgroundColor={'white'}
 				>Resume</Button></a>	
 			</Flex>

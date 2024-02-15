@@ -9,7 +9,7 @@ import {
 } from "@chakra-ui/react";
 import { Button, Text } from "@chakra-ui/react";
 import "./styles/font.css";
-import professional from '../assets/professional.png'
+import professional from '../components/assets/enhanced-image.png'
 /**	
  * @author
  * @function IntroCover
@@ -18,9 +18,12 @@ import professional from '../assets/professional.png'
 export const IntroCov = (props) => {
 	return (
 		<Box
+		    bgImage={professional}
 		    id='home'
 		    backgroundColor={"#f4fff7"}
-			
+			bgPosition={{base:"bottom",sm:"bottom", md:"right", lg:"right"}}
+			bgSize={"contain"}
+			bgRepeat={"no-repeat"}
 			overflow={"hidden"}
 			position={"relative"}
 			// color={"white"}
@@ -77,7 +80,7 @@ export const IntroCov = (props) => {
 						width={""}
 						fontFamily={"Handlee,cursive"}
 						marginTop={["1%", "1%", "3%", "4%", "4%"]}
-						
+
 					>
 						 Hey there! I'm Sahil Nishad, a front-end React developer with a keen eye for crafting captivating user interfaces. As I pivot towards backend development, I'm geared up to freelance and seamlessly integrate front-end finesse with backend prowess. Let's collaborate to bring a holistic touch to your digital projects!
 					</Container>
@@ -163,7 +166,7 @@ export const IntroCov = (props) => {
 					</Card>
 				</Flex>
 			</Grid>
-			<Image
+			{/* <Image
 				zIndex={"3"}
 				width={["100%", "70%", "50%", "40%", "40%", "35%"]}
 				position={"absolute"}
@@ -171,7 +174,7 @@ export const IntroCov = (props) => {
 				bottom={"0"}
 				// src="src\assets\casual-png.png"
 				src={professional}
-			/>
+			/> */}
 		</Box>
 	);
 };
