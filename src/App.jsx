@@ -12,6 +12,7 @@ import HireMe from './components/sections/HireMe'
 import Footer from './components/sections/Footer'
 import GithubCalender from './components/sections/GithubCalender'
 import { Projects } from './components/sections/Projects'
+import Experience from './components/sections/Experience'
 
 function App() {
  
@@ -21,10 +22,10 @@ function App() {
     <Navbar/>
     <IntroCov/>
     <About/>
-   
-    <GithubCalender/>
+     <Experience/>
+    {/* <GithubCalender/> */}
     <Skills/> 
-    <Projects/>
+    {/* <Projects/> */}
     <HireMe/>
     <Contact/>
     <Footer/>
